@@ -1,0 +1,31 @@
+.container{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+}
+
+.logo{
+   font-weight: bold;
+}
+
+.link{
+   padding: 10px;
+   transition: .3s;
+}
+.link:hover{
+   color: white;
+}
+
+.logout{
+   border: none;
+   font-size: 1.05rem;
+   margin-left: 10px;
+   border-radius: 5px;
+   background: #45a676;
+   transition: .3s;
+}
+.logout:hover{
+   background: #60e3a2;
+   cursor: pointer;
+   transform:scale(1.1)
+}

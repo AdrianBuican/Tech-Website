@@ -12,7 +12,7 @@ export default function Home() {
         <p className={styles.description}>
           We bring your ideas to life, with the best teams from the global tech industry.
         </p>
-        <button className={styles.button}>See Our Work</button>
+        <button className={styles.btn}>See Our Work</button>
       </div>
       <div className={styles.item}>
         <Image src={Hero} alt="" className={styles.img} />

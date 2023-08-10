@@ -18,6 +18,7 @@
 
 .logout{
    border: none;
+   padding: 5px;
    font-size: 1.05rem;
    margin-left: 10px;
    border-radius: 5px;

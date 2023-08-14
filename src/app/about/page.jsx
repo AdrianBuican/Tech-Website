@@ -30,15 +30,15 @@ const About = () => {
         </div>
         <div className={styles.item}>
         <h1 className={styles.title}>What do we do?</h1>
-          <p className={styles.desc}>
+          <div className={styles.desc}>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod molestias magni dolor vel repudiandae assumenda tenetur facilis minus sunt ullam aspernatur, obcaecati nobis earum delectus doloribus accusantium sit quasi qui!
             <br />
-            <ul className={styles.desc}>
-              <li>Creative illustrations</li>
-              <li>Dynamic websites</li>
-              <li>Fast, reliable Mobile Apps</li>
-            </ul>
-          </p>
+            <div className={styles.desc}>
+              <p>- creative illustrations</p>
+              <p>- dynamic websites</p>
+              <p>- fast, reliable Mobile Apps</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

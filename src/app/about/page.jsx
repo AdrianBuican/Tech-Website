@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './page.module.css'
 import Image from 'next/image'
+import Button from '../../components/Button/Button'
 
 const About = () => {
   return (
@@ -29,7 +30,7 @@ const About = () => {
           </p>
         </div>
         <div className={styles.item}>
-        <h1 className={styles.title}>What do we do?</h1>
+        <h1 className={styles.title}>What we do</h1>
           <div className={styles.desc}>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod molestias magni dolor vel repudiandae assumenda tenetur facilis minus sunt ullam aspernatur, obcaecati nobis earum delectus doloribus accusantium sit quasi qui!
             <br />
@@ -38,6 +39,7 @@ const About = () => {
               <p>- dynamic websites</p>
               <p>- fast, reliable Mobile Apps</p>
             </div>
+            <Button url="/about" text="See our works"></Button>
           </div>
         </div>
       </div>

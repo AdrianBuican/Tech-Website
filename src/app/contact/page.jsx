@@ -4,7 +4,7 @@ import Image from "next/image";
 import Button from "@/components/Button/Button";
 
 export const metadata = {
-  title: "Tech Vibe Contact Information",
+  title: "TechVibe Contact",
   description: "This is Contact Page",
 };
 

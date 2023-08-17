@@ -2,6 +2,11 @@ import styles from './page.module.css'
 import Image from 'next/image'
 import Hero from "public/hero.png"
 
+export const metadata={
+  title: "TechVibe Home",
+  description: "This is the Home Page"
+}
+
 export default function Home() {
   return (
     <div className={styles.container}>
